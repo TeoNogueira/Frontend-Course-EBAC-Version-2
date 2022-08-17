@@ -1,0 +1,21 @@
+git checkout nome_da_branch trocar de branch (navegar entre) 
+git checkout nome_da_branch
+
+
+git branch nome_da_branch <<<<< adicionar branch
+git checkout -b nome_da_branch <<<<< adicionar branch e entrar nela
+
+
+---x-x--x-x-------------------------x-x-x--------------------x-x-x--------
+
+IMPORTANTE: SE VOCÊ ESTÁ DENTRO DE UMA BRANCH E CRIA OUTRA BRANCH NOVA, ELA HERDARÁ TODOS OS ARQUIVOS.
+
+PARA ela herdar algo específico de outra branch ex "master" use o comando:
+
+git branch nome_da_branch_nova master
+
+---x-x--x-x-------------------------x-x-x--------------------x-x-x--------
+
+DELETAR BRANCH:
+
+git branch -D nome_da_branch
