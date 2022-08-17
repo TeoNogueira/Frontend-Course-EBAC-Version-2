@@ -19,3 +19,11 @@ git branch nome_da_branch_nova master
 DELETAR BRANCH:
 
 git branch -D nome_da_branch
+
+---x-x--x-x-------------------------x-x-x--------------------x-x-x--------
+
+SUBIR BRANCH PARA O GITHUB:
+
+git push origin nome_da_branch
+
+---x-x--x-x-------------------------x-x-x--------------------x-x-x--------

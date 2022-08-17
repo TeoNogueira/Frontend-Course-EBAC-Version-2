@@ -1,0 +1,1 @@
+git merge nome_da_branch <<<  Mesclar .. copia todos os arquivos de uma determinada branch para a branch na qual você está.
