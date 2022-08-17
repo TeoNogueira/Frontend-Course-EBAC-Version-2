@@ -1,1 +1,0 @@
-para Baixar modificaçoes do github pro repositório local use o git pull

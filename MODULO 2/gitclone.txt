@@ -1,3 +1,0 @@
-git clone baixa o repositório
-
-ex: git clone https://github.com/TeoNogueira/Frontend-Course-EBAC-Version-2.git -l git2
