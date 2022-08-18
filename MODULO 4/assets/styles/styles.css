@@ -1,0 +1,72 @@
+* {
+
+    box-sizing: border-box; 
+   font-family: sans-serif;
+}
+
+/* Section */
+
+
+section {
+    
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-grow: 3;
+}
+
+article {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+h3 {
+
+    user-select: none;
+}
+
+
+h1 {
+
+    color: rgb(0, 77, 128);
+}
+
+h3 {
+    
+    color: rgb(23, 119, 36);
+}
+
+h4 {
+
+    color: red;
+}
+
+.text-4 {
+
+    color: gray; 
+}
+
+#text-5 {
+
+    color: rgb(93, 153, 192); 
+}
+
+
+img {
+
+    width: 300px;
+    height: 276px;
+    border-radius: 4px;
+}
+
+img:hover {
+
+    cursor: pointer;
+    opacity: 0.9;
+}

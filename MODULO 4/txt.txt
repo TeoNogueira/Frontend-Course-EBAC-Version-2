@@ -1,0 +1,8 @@
+displays: flex, grid, inline, block, inline-block;
+
+margins, paddings;
+
+position: relative: inherit, absolute, fixed;
+
+texts: font-size, font-family, font-weight, line-height, text-align, color, etc..
+
