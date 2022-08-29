@@ -18,8 +18,8 @@
             <nav>
         
                 <ul>
-                <li><a href="#">Sobre a loja</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#about">Sobre a loja</a></li>
+                <li><a href="#contact">Contato</a></li>
             
         
             </ul>
@@ -27,7 +27,7 @@
         </div>
         </header>
 
-    <section>
+    <section id="about">
         <div class="container">
 
             <img src="./assets/img/default.jpg" class="img-def" alt="fachada da loja games shop">
@@ -59,10 +59,10 @@
             <div class="contact-methods">
                 
                 <form action="">
-                    <input type="text" placeholder="Seu nome" />
-                    <input type="email" placeholder="Seu email" />
+                    <input type="text" placeholder="Seu nome" required/>
+                    <input type="email" placeholder="Seu email" required/>
                     <input type="tel" placeholder="Seu telefone" />
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem">
+                    <textarea placeholder="Sua mensagem" name="" id="" cols="30" rows="10" required>
 
 
                     </textarea>
@@ -101,6 +101,17 @@
             </div>
     </div>
 </section>
+<footer>
 
+    <div class="container">
+
+        <p>
+
+            &copy; Games Shop - Todos os direitos reservados - 2022
+        </p>
+
+    </div>
+
+</footer>
 </body>
 </html>
