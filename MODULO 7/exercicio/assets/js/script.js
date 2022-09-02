@@ -17,6 +17,9 @@ if(valorB > valorA) {
     const greenBg = document.getElementById('dashb').style.background = '#0c9718'
     const whiteC = document.getElementById('dashb').style.color = '#fff'
     alert('Valor válido, você poderá financiar!')
+
+
+ 
    
 }
 else {
