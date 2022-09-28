@@ -34,6 +34,8 @@ $('form').on('submit', function(e) {
     $(newItem).fadeIn(1000);
     $('#address-new-img').val('')
 
+
+
 })
 
 
