@@ -22,6 +22,12 @@ html {
     width: 100%;
     margin: 0 auto;
 }
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 
 header > .container {
 
@@ -31,7 +37,7 @@ header > .container {
 
 }
 
-header {
+header, footer {
     background: #192a56;
     padding-top: 16px 0;
     color: #fff;
@@ -135,7 +141,7 @@ section h2 {
 }
 
 
-.lista-veic li button{
+ button {
 
     display: block;
     width: 100%;
@@ -152,9 +158,89 @@ section h2 {
 }
 
 
+
 .lista-veic li strong {
 
     margin: 16px 0;
     display: block;
 }
 
+/* Offer */
+
+.price {
+
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* FORM */
+
+.form-ground {
+    margin-bottom: 16px;
+    
+
+}
+
+.form-ground label {
+
+    font-weight: bold;
+    display: block;
+}
+
+.form-ground input,
+.form-ground textarea {
+
+    width: 100%;
+    display: block;
+    padding: 8px;
+
+}
+
+
+.form-ground textarea {
+
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+
+    max-width: 120px;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    
+}
+
+footer li {
+
+    list-style: none;
+    margin-left: 16px;
+
+}
+
+footer li img {
+    height: 25px;     
+}
+
+footer .container {
+
+    justify-content: space-between;
+    align-items: center;
+}
