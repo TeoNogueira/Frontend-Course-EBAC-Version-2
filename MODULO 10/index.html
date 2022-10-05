@@ -199,7 +199,7 @@
 </section>
 
 <!-- Contact -->
-<section>
+<section id="contato">
     <div class="container">
         <h2>Entre em contato</h2>
         <form action="">
@@ -327,7 +327,15 @@ invalidHandler: function(e, validador) {
 
 // Este plugin não trabalha com ID's, mas com o nome do campo (inputs).
 })
+$('.lista-veic').click(function() {
 
+    const destiny = $('#contato');
+
+    $('html').animate({
+
+        scrollTop: destiny.offset().top
+    }, 1000);
+})
 })
 // slick lib website in github
 //Jqueryvalidation.org
