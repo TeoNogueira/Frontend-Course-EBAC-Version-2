@@ -1,18 +1,11 @@
 $(document).ready(function(e) {
 
      
-
-    $('#carousel-imagens').slick({
-        autoplay: true,
-    });
     
-    $('.menu-hamb').click(function() {
-    
-        $('nav').slideToggle()
-    
-    })
     // let maskMob = smartphone ? '(00) 00000-0000' : '(00) 0000-0000';
     $('#telefone').mask('(00) 0000-0000');
+    $('#cpf').mask('000.000.000-00');
+    $('#cep').mask('00000-000');
     /* ex: mask('00/00/0000', {
         //placeholder: 'dia/mês/ano'
     
@@ -38,8 +31,11 @@ $(document).ready(function(e) {
             mensagem: {
             required: true,
         },
-            veicInteresse: {
-            required: false,
+            cpf: {
+            required: true,
+        },
+            cep: {
+            required: true,
         },
     },
     messages: {
@@ -55,31 +51,15 @@ $(document).ready(function(e) {
     
         let camposIncorretos = validador.numberOfInvalids();
     
-        // console.log(camposIncorretos)
+
     
         if(camposIncorretos) {
     
             alert(`Existem ${camposIncorretos} campos incorretos!`)
         }
     }
-    
-    // Este plugin não trabalha com ID's, mas com o nome do campo (inputs).
+
     });
-    
-    $('.lista-veic button').click(function() {
-    
-        const destiny = $('#contato');
-    
-    const nameAuto = $(this).parent().find('h1').text()
-    
-    $('#veic-interesse').val(nameAuto)
-    
-        $('html').animate({
-    
-            scrollTop: destiny.offset().top
-        }, 1000);
     })
-    })
-    // slick lib website in github
-    //Jqueryvalidation.org
-    // console.log('test')
+
+
