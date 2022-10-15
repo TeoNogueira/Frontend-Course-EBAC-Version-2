@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    body {
+        overflow-x: hidden;
+
+    }
+ul {
+    
+    display: flex;
+    width: 100%;
+    list-style: none;
+    
+}
+
+/*@media screen and (min-width: 1366px)*/
+
+@media screen and (max-width: 640px) {
+     
+    ul {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    li {
+        width: 100%;
+    }
+    h3 {
+
+        color: #fff;
+    }
+}
+
+    @media screen and (orientation: portrait) and (max-width: 640px) {
+        /* landscape */
+
+        body {
+
+            background: #EBAC22;
+        }
+    }
+
+    @media print  {
+
+        h3  {
+
+            color: crimson;
+        }
+            /* ul {
+
+                display:flex;
+                flex-direction: column;
+            } */
+        img {
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+</style>
+</head>
+<body>
+
+    <ul>
+        <li>
+            <img src="./lol.webp" alt="">
+            <h3>League of Legends Opening</h3>
+        </li>
+        <li>
+            <img src="./lol.webp" alt="">
+            <h3>League of Legends Opening</h3>
+        </li>
+        <li>
+            <img src="./lol.webp" alt="">
+            <h3>League of Legends Opening</h3>
+        </li>
+        
+    </ul>
+    
+</body>
+</html>

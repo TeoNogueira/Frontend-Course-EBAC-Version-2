@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        
+        div {
+            background: url('https://i.pinimg.com/564x/a2/34/a6/a234a6289a19836137ccce38528433c5.jpg') no-repeat;
+            background-size: cover center;
+            height: 500px;
+            width: 100%;
+            /* galah bird
+                https://ar.pinterest.com/pin/16184879900630943/
+
+                https://yandex.com/images/search?text=agapornis%20roseicollis&p=6&pos=180&rpt=simage&img_url=http%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb5%2F79%2F33%2Fb579339a0443cb56616ecdb8fade93fe.jpg&lr=105728
+            */
+        }
+    </style>
+</head>
+<body>
+<!-- SOLUÇÃO PARA MUDAR IMAGENS DE ACORDO COM A RESPONSIVIDADE -->
+    <picture>
+        <source media="(max-width: 990px)" srcset="https://i.pinimg.com/564x/6d/95/25/6d95255b5f98eacada42767baecbdf74.jpg">
+    
+        <source media="(min-width: 1280px)" srcset="https://i.pinimg.com/564x/41/79/ae/4179ae809956da6efa7438d244c93d36.jpg">
+        <img src="https://i.pinimg.com/564x/f4/ef/fc/f4effc956bfcb28366105c93ddb7e827.jpg" alt="Roseicollis arlequim jade">
+
+    </picture>
+    <div></div>
+    
+</body>
+</html>

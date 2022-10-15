@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap');
+
+* {   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+
+    max-width: 1324px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+
+    padding: 16px 0 0;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.sub-menu {
+
+    display: none;
+    background: #7ab1a2;
+     position: absolute;  /* o box-model no ul do sub-menu está sendo considerado por isso adicionamos o absolute*/
+     left: 0;
+     width: 300px;
+     left: 0;
+     top: 100%;
+}
+
+
+.menu > li {
+
+    float: left;
+    list-style: none;
+    padding: 16px;
+    border-top: 4px solid transparent;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.menu > li:hover {
+
+    border-top: 4px solid #7ab1a2;
+}
+
+.clear-both {
+
+    clear: both;
+}
+
+
+
+.menu li:hover .sub-menu {
+
+    display: block;
+    cursor: pointer;
+    
+}
+
+.sub-menu li {
+
+    display: block;
+    padding: 8px;
+    
+}
+
+a {
+    color: #fff;
+}
