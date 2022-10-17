@@ -25,6 +25,7 @@ header {
 
     padding: 16px 0 0;
     border-bottom: 2px solid #ccc;
+    margin-bottom: 56px;
 }
 
 
@@ -78,5 +79,66 @@ header {
 }
 
 a {
-    color: #fff;
+    /* color: #fff; */
+}
+
+/* Imagem */
+
+.img-resp {
+
+width: 220px;
+height: 220px;
+
+}
+.noticia img {
+
+    max-width: 100%;
+}
+.conteudo {
+
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+}
+
+.destaque .noticia a {
+
+    font-size: 2em;
+    display: flex;
+}
+
+.destaque .noticia img {
+
+    margin-right: 8px;
+}
+
+.destaque {
+    margin-bottom: 56px;
+
+}
+
+section h2 {
+
+    margin-bottom: 32px;
+}
+
+
+aside {
+
+    padding-left: 40px;
+}
+
+aside .noticia {
+
+    margin-bottom: 24px;
+
+}
+
+
+.noticias {
+
+    display: grid;
+    grid-template-columns: repeat(3, 32.6%);
+    column-gap: 1%;
+    row-gap: 7%;
 }
