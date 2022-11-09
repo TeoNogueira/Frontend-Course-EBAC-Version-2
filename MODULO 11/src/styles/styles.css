@@ -142,3 +142,126 @@ aside .noticia {
     column-gap: 1%;
     row-gap: 7%;
 }
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 767px) {
+
+
+    .conteudo {
+
+        display: block;
+
+    }
+
+    .container {
+
+        max-width: 90%;
+    }
+
+    
+.destaque .noticia a {
+
+    font-size: 1.3em;
+    display: block;
+}
+
+.destaque .noticia img {
+
+    margin-right: 0;
+}
+
+.img-resp {
+width: 100%;
+margin-top: 15px;
+
+}
+
+.destaque {
+
+}
+
+.noticias {
+
+    display: block;
+    grid-template-columns: repeat(3, 32.6%);
+    column-gap: 1%;
+    row-gap: 7%;
+}
+
+.noticias .noticia {
+
+    margin-bottom: 32px;
+}
+
+
+aside {
+
+    padding-left: 0;
+}
+
+header .container {
+
+    flex-direction: column;
+}
+
+
+/* Menu && Submenu */
+
+
+.sub-menu {
+
+    display: block;
+
+     position: relative;  /* o box-model no ul do sub-menu está sendo considerado por isso adicionamos o absolute*/
+     width: 100%;
+    border: none;
+    }
+
+
+.menu > li {
+    clear: both;
+    background: #284039;
+    /* float: left; */
+}
+
+
+
+
+.menu, .menu > li {
+    width: 100%;
+    display: none;
+}
+
+
+.sub-menu li {
+
+    display: block;
+    padding: 8px;
+    
+}
+.menu {
+
+    display: block;
+}
+
+
+
+.botao-menu {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+.botao-menu button {
+
+
+    padding: 8px;
+}
+
+}
