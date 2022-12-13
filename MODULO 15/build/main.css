@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.produto {
+  background-color: rgb(50, 149, 50);
+}
+
+body {
+  background-color: rgb(222, 219, 219);
+}
+
+/*# sourceMappingURL=main.css.map */

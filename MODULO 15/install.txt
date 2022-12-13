@@ -1,0 +1,27 @@
+npm install -g sass = SASS INSTALAÇAO GLOBAL 
+npm init = iniciando o package.json
+
+npm i --save-dev sass = dependencia de desenvolvimento
+
+vá no packagejson e digite em scripts:
+
+  "scripts": {
+    "sass": "sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+
+  --x--x-x-x----
+
+
+inserido arquivos de entrada e final do sass
+
+   "scripts": {
+    "sass": "sass src/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+
+  execute no terminal: npm run sass | Caso você digite --watch no script do sass, nao é necessário  ficar atualizando npm run sass no terminal.                      
+
+Finalmente digite no terminal: npm run sass --watch
