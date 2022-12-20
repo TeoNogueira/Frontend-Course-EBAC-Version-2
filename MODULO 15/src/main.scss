@@ -1,7 +1,61 @@
 @use 'config/reset';
-@use 'secoes/produtos';
-@use 'config/cores';
+@use 'config/variable';
+
+@mixin elementform {
+
+    padding: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+
+}
+
 
 body {
-    background-color: cores.$corDeFundo;
+background-color: #eef;
+color: variable.$wColor;
 }
+
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #2a9e70;
+    text-align: center;
+}
+
+.form-container {
+
+
+    height:  calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        width: 100%;
+        max-width: 480px;
+        margin-top: 40px;
+        
+        input {
+            @include elementform();
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid variable.$wColor;
+        }
+        button {
+            @include elementform();
+
+        }
+     
+        
+    }
+
+}
+
